@@ -4,4 +4,5 @@ DUTIES:
 *David: Homepage, About us
 *Kanya: Contac us, Careers
 *Manana: Solutions, Testimonials
-*Services, Industries served
+*Mpho: Services, Industries served
+*Pumelele: Blog, Case Studies
