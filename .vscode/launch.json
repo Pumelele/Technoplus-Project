@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open INDEX.HTML",
-            "file": "c:\\Users\\Vivlia ICT\\Sisekelo\\Technoplus-Project\\INDEX.HTML"
+            "file": "c:\\Users\\Vivlia ICT\\Sisekelo\\Technoplus-Project\\CaseStudies.html"
         }
     ]
 }
