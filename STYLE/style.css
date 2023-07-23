@@ -3,6 +3,16 @@ body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
+overflow-y: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 a{
     font-size: 14px;
@@ -19,7 +29,7 @@ a{
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('');
+  background-image: url('../IMG/network-gcb4eed033_1280.jpg');
   min-height: 100%;
 }
 
@@ -44,53 +54,11 @@ a{
     background-attachment: scroll;
     min-height: 400px;
   }
+    .zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }
-/* !!STYLING FOR SOCIAL MEDIA ICONS */
-/* Style all font awesome icons */
-.fa {
-  /* padding: 20px; */
-  padding-top: 10%;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 30%;
-}
+    
 
-/* hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-  width: 50px;
-  height: 50px;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-  width: 50px;
-  height: 50px;
-}
-
-/* LinkedIn */
-.fa-linkedin {
-  background: #3B5998;
-  color: white;
-  width: 50px;
-  height: 50px;
-}
-
-/*CARD EFFECT FOR ITEMS*/
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
 }
